@@ -4,8 +4,7 @@
   "description": "Api rest to handle product",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=production node app.js",
-    "dev":"NODE_ENV=development nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "Florian",
   "license": "ISC",

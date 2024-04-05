@@ -14,10 +14,6 @@ app
 
 sequelize.initDb()
 
-app.get('/',(req,res) => {
-  res.json("hello, Heroku")
-})
-
 require('./src/routes/findAllProducts')(app)
 require('./src/routes/findProductByPk')(app)
 require('./src/routes/createProduct')(app)
